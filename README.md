@@ -46,7 +46,6 @@ Route::get('/', function()
 	//Bu işlemlerin sonunda arp tablosu kaydedildi!
 	
 	//ip adresi tarama kodu
-	// for döngüsü içinde taranıcak ip bloğunu giriyoruz başlangıç ve bitiş değerlerini
 	for ($ipa=1; $ipa <= 30; $ipa++){
 	   $ip = "192.168.1.".$ipa;
 	   $ping_output=array();
